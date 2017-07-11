@@ -1,0 +1,75 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.Main-list {
+  width: 850px;
+  /* below centers things */
+  margin: 0 auto;
+}
+
+li {
+  height: 100px;
+  width: 170px;
+  border: 3px solid;
+  border-radius: 10%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 2px;
+  /*The below has put the boxes in a line*/
+  display: inline-block;
+  /*The below has put the text in the middle of the boxes*/
+  line-height: 95px;
+  background-color: lightblack;
+  font-style: bold;
+}
+
+ul {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+  margin-top 145;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width:50%;
+  max-height:50%;
+}
+
+.row1 {
+  border-color: gold;
+  color: #474143;
+
+}
+
+.row2 {
+  border-color: #474143;
+  color: gold;
+}
+
+.row3 {
+  border-color: gold;
+  color: #474143;
+}
+
+.row4 {
+  border-color: #474143;
+  color: gold;
+}
+
+h1 {
+text-align: center;
+font-family: Daft Font;
+font-size: 90px;
+color: red;
+margin-top: -70px;
+}
+
+footer {
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+}
